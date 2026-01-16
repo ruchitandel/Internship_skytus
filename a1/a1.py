@@ -1,0 +1,1 @@
+print("Ruchi", 18, "valsad")
