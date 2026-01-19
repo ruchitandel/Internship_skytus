@@ -1,19 +1,18 @@
 import csv
 
-# ---------- 1. Read a file and display its contents ----------
+#  1. Read a file and display its contents 
 print("\n1. Read file and display contents")
 with open("data.txt", "r") as file:
     print(file.read())
 
-
-# ---------- 2. Count number of lines in a file ----------
+#2. Count number of lines in a file
 print("\n2. Count number of lines")
 with open("data.txt", "r") as file:
     lines = file.readlines()
     print("Total lines:", len(lines))
 
 
-# ---------- 3. Count how many times each word appears ----------
+# 3. Count how many times each word appears 
 print("\n3. Word count in file")
 with open("data.txt", "r") as file:
     text = file.read().lower()
@@ -27,7 +26,7 @@ for word in words:
 print(word_count)
 
 
-# ---------- 4. Write 5 user-entered sentences to a file ----------
+# 4. Write 5 user-entered sentences to a file 
 print("\n4. Write 5 sentences to file")
 with open("sentences.txt", "w") as file:
     for i in range(5):
@@ -37,7 +36,7 @@ with open("sentences.txt", "w") as file:
 print("Sentences saved successfully.")
 
 
-# ---------- 5. Append a list of strings to an existing file ----------
+#  5. Append a list of strings to an existing file 
 print("\n5. Append list to file")
 data = ["Apple\n", "Banana\n", "Mango\n"]
 
@@ -47,7 +46,7 @@ with open("data.txt", "a") as file:
 print("Data appended successfully.")
 
 
-# ---------- 6. Print only lines containing a specific word ----------
+#  6. Print only lines containing a specific word 
 print("\n6. Search word in file")
 search_word = input("Enter word to search: ")
 
@@ -57,7 +56,7 @@ with open("data.txt", "r") as file:
             print(line.strip())
 
 
-# ---------- 7. Replace a word in file ----------
+#  7. Replace a word in file 
 print("\n7. Replace word in file")
 old_word = input("Enter word to replace: ")
 new_word = input("Enter new word: ")
@@ -73,7 +72,7 @@ with open("data.txt", "w") as file:
 print("Word replaced successfully.")
 
 
-# ---------- 8. Merge two text files ----------
+#  8. Merge two text files 
 print("\n8. Merge two files")
 
 with open("file1.txt", "r") as f1, open("file2.txt", "r") as f2, open("merged.txt", "w") as f3:
@@ -84,7 +83,7 @@ with open("file1.txt", "r") as f1, open("file2.txt", "r") as f2, open("merged.tx
 print("Files merged into merged.txt")
 
 
-# ---------- 9. Read CSV file and display content ----------
+#  9. Read CSV file and display content 
 print("\n9. Read CSV file")
 
 with open("data.csv", "r") as file:
@@ -93,7 +92,7 @@ with open("data.csv", "r") as file:
         print(row)
 
 
-# ---------- 10. Backup a file ----------
+#  10. Backup a file 
 print("\n10. Backup file")
 
 with open("data.txt", "r") as source, open("backup.txt", "w") as backup:

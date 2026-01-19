@@ -1,4 +1,4 @@
-# ------------------ 1. Animal → Dog, Cat ------------------
+#  1. Animal  Dog, Cat 
 class Animal:
     def speak(self):
         print("Animal makes a sound")
@@ -17,7 +17,7 @@ dog.speak()
 cat.speak()
 
 
-# ------------------ 2. Vehicle → Car → ElectricCar ------------------
+#  2. Vehicle  Car  ElectricCar 
 class Vehicle:
     def move(self):
         print("Vehicle is moving")
@@ -34,7 +34,7 @@ ev = ElectricCar()
 ev.move()
 
 
-# ------------------ 3. Method Overriding ------------------
+#  3. Method Overriding 
 class Parent:
     def show(self):
         print("This is parent class")
@@ -47,7 +47,7 @@ obj = Child()
 obj.show()
 
 
-# ------------------ 4. Multiple Inheritance ------------------
+#  4. Multiple Inheritance 
 class Father:
     def skill1(self):
         print("Father: Driving")

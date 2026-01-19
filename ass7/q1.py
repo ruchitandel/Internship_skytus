@@ -1,4 +1,4 @@
-# ------------------- 1. Car Class -------------------
+# 1. Car Class
 class Car:
     def __init__(self, brand, model, speed=0):
         self.brand = brand
@@ -19,7 +19,7 @@ car.accelerate(30)
 car.brake(10)
 
 
-# ------------------- 2. BankAccount Class -------------------
+# 2. BankAccount Class
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
@@ -45,7 +45,7 @@ account.withdraw(300)
 account.show_balance()
 
 
-# ------------------- 3. Student Class -------------------
+#  3. Student Class 
 class Student:
     def __init__(self, name, marks):
         self.name = name
@@ -59,7 +59,7 @@ student = Student("Ruchi", [80, 85, 90])
 print("Average Marks:", student.average())
 
 
-# ------------------- 4. Rectangle Class -------------------
+#  4. Rectangle Class 
 class Rectangle:
     def __init__(self, length, width):
         self.length = length
@@ -77,7 +77,7 @@ print("Area:", rect.area())
 print("Perimeter:", rect.perimeter())
 
 
-# ------------------- 5. Employee Class -------------------
+# 5. Employee Class
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -92,7 +92,7 @@ emp = Employee("Amit", 50000)
 emp.display()
 
 
-# ------------------- 6. Book Class -------------------
+#  6. Book Class 
 class Book:
     def __init__(self, title, author, price):
         self.title = title
@@ -109,7 +109,7 @@ book = Book("Python Basics", "Guido", 299)
 book.display()
 
 
-# ------------------- 7. Circle Class -------------------
+#  7. Circle Class 
 import math
 
 class Circle:
@@ -128,7 +128,7 @@ print("Area:", circle.area())
 print("Circumference:", circle.circumference())
 
 
-# ------------------- 8. Laptop Class -------------------
+#  8. Laptop Class 
 class Laptop:
     def __init__(self, brand, price):
         self.brand = brand
@@ -144,7 +144,7 @@ laptop = Laptop("Dell", 60000)
 laptop.apply_discount(10)
 
 
-# ------------------- 9. Flight Class -------------------
+#  9. Flight Class 
 class Flight:
     def __init__(self, flight_no, seats):
         self.flight_no = flight_no
@@ -163,7 +163,7 @@ flight.book_seat()
 flight.book_seat()
 
 
-# ------------------- 10. Shop Class -------------------
+# 10. Shop Class
 class Shop:
     def __init__(self):
         self.products = []
