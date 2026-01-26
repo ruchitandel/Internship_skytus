@@ -118,7 +118,7 @@ p.set_name("Amit")
 print("Updated Name:", p.get_name())
 
 
-# ------------------ 8. Teacher → Student Inheritance ------------------
+# ------------------ 8. Teacher  Student Inheritance ------------------
 class Teacher:
     def teach(self):
         print("Teacher is teaching")
@@ -132,7 +132,7 @@ s.teach()
 s.study()
 
 
-# ------------------ 9. MusicPlayer → Spotify Overriding ------------------
+# ------------------ 9. MusicPlayer Spotify Overriding ------------------
 class MusicPlayer:
     def play(self):
         print("Playing music")
